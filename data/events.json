@@ -1,0 +1,51 @@
+[
+  {
+    "timestamp": "2026-04-25T10:05:38.455482+00:00",
+    "event_type": "Network",
+    "source": "127.0.0.1:135",
+    "severity": 4,
+    "description": "Open port detected: 135 (Windows RPC)"
+  },
+  {
+    "timestamp": "2026-04-25T10:07:12.634913+00:00",
+    "event_type": "Network",
+    "source": "127.0.0.1:445",
+    "severity": 4,
+    "description": "Open port detected: 445 (Windows SMB)"
+  },
+  {
+    "timestamp": "2026-04-25T10:09:32.293090+00:00",
+    "event_type": "Network",
+    "source": "127.0.0.1:902",
+    "severity": 4,
+    "description": "Open port detected: 902 (VMware Auth)"
+  },
+  {
+    "timestamp": "2026-04-25T10:09:35.038712+00:00",
+    "event_type": "Network",
+    "source": "127.0.0.1:912",
+    "severity": 4,
+    "description": "Open port detected: 912 (VMware Auth)"
+  },
+  {
+    "timestamp": "2026-04-25T10:10:09.629084+00:00",
+    "event_type": "Application",
+    "source": "10.0.0.5 \u2192 /login?user=%27OR%201=1--",
+    "severity": 5,
+    "description": "SQL Injection pattern detected in request path"
+  },
+  {
+    "timestamp": "2026-04-25T10:10:09.629136+00:00",
+    "event_type": "Application",
+    "source": "10.0.0.7 \u2192 /search?q=<script>alert(1)</script>",
+    "severity": 4,
+    "description": "XSS (Cross-Site Scripting) pattern detected in request path"
+  },
+  {
+    "timestamp": "2026-04-25T10:10:09.629171+00:00",
+    "event_type": "Application",
+    "source": "192.168.1.99 \u2192 /../../../../etc/passwd",
+    "severity": 4,
+    "description": "Path Traversal pattern detected in request path"
+  }
+]
