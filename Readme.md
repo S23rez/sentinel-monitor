@@ -42,8 +42,6 @@ environment for threats across three security domains simultaneously:
 All findings are packaged into a unified `SentinelEvent` data structure, correlated by
 a heuristic threat engine, and scored on a **0–100 Risk Scale**.
 
-This project was originally designed as a 12-person team exercise and completed
-**entirely solo** for deeper learning and understanding.
 
 ---
 
@@ -310,7 +308,7 @@ Building this project solo gave me hands-on understanding of:
 
 ## Author
 
-**Suarez** — Cybersecurity Student  
+**Odunuga Fatai Olayinka** — Cybersecurity Student  
 GitHub: [@S23rez](https://github.com/S23rez)
 
 ---
